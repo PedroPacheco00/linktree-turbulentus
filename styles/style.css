@@ -187,4 +187,8 @@ body {
     .apresentacao__conteudo__subtitulo {
         font-size: 1.1rem;
     }
+
+    .rodape {
+        margin-top: 2rem;
+    }
 }
