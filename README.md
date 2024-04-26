@@ -1,6 +1,7 @@
-# Linktree Olá, Bem vindo ao meu projeto de linktree.
+# Linktree 
+## Olá, Bem vindo ao meu projeto de linktree.
 
-![image]
+![image](assets/printDoProjeto.png)
 
 ## Ferramentas utilizadas:
 
