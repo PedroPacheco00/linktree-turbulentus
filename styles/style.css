@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Exa:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Deca:wght@100..900&family=Lexend+Exa:wght@100..900&display=swap');
 
 :root {
     --cor-primaria: #fff1d0;
@@ -6,8 +9,9 @@
     --cor-terciaria: #af2bbf;
     --cor-hover: #f7aef8;
 
-    --fonte-primaria: "Krona One", sans-serif;
-    --fonte-secundaria: "Montserrat", sans-serif;
+    --fonte-primaria: "Alata", sans-serif;
+    --fonte-secundaria: "Lexend Exa", sans-serif;
+    --fonte-terciaria: "Lexend Deca"; sans-serif;
 }
 
 * {
@@ -105,10 +109,11 @@ body {
 }
 
 .apresentacao__conteudo__subtitulo {
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 1.5rem;
     text-align:center;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__links {
